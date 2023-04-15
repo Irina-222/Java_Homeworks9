@@ -2,7 +2,7 @@ package ru.netology;
 
 public class Radio {
 
-    public int currentStation;
+    private int currentStation;
 
     public int getCurrentStation() {
         return currentStation;
@@ -34,7 +34,7 @@ public class Radio {
         }
     }
 
-    public int currentVolume;
+    private int currentVolume;
 
     public int getCurrentVolume() {
         return currentVolume;
